@@ -1,0 +1,76 @@
+body{
+  font-family: "Georgia", "Times New Roman", serif;
+
+  background-color: aliceblue;
+}
+
+em{
+  font-weight: 600;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.card_main{
+  width: 300px;
+  margin: 30px;
+  border: 2.5px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2), 6px 10px 10px rgba(0, 0, 0, .15);
+
+  background-color: snow;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details_summary{
+  margin: 0px;
+  padding: 10px;
+
+  color: snow;
+  text-align: center;
+  font-size: 16.5px;
+  font-style: italic;
+
+  background-color: slategrey;
+}
+
+.details_list{
+  margin: 0px;
+  padding: 10px;
+  border-top: 2px solid;
+
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.details_description{
+  margin: 0px;
+  padding: 10px;
+
+  font-size: 14px;
+}
+
+#title{
+  width: 300px;
+  margin: 0px;
+  padding: 5px;
+
+  font-size: 40px;
+  color: snow;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+
+  background-color: slategrey;
+}
+
+#picture_main{
+  width: 300px;
+  height: 300px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+
+  filter: grayscale(100%);
+}
